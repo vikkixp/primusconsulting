@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <div className="min-h-screen bg-white text-slate-900">
       {/* Navigation */}
       <header className="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/90 backdrop-blur-md">
@@ -9,16 +10,34 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-md bg-blue-600 flex items-center justify-center">
               <span className="text-white font-bold text-base">P</span>
+=======
+    <div className="min-h-screen bg-white text-slate-900 antialiased font-sans">
+      {/* Navigation */}
+      <header className="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/95 backdrop-blur-sm">
+        <div className="container mx-auto flex h-16 items-center justify-between px-6 max-w-7xl">
+          <div className="flex items-center gap-3">
+            <div className="h-9 w-9 rounded-md bg-blue-700 flex items-center justify-center shadow-sm">
+              <span className="text-white font-semibold text-base">P</span>
+>>>>>>> origin/main
             </div>
-            <span className="font-semibold text-lg tracking-tight">Primus Consulting</span>
+            <span className="font-semibold text-lg tracking-tight text-slate-800">Primus Consulting</span>
           </div>
           <nav className="hidden md:flex items-center gap-10 text-sm font-medium">
+<<<<<<< HEAD
             <Link href="#about" className="text-slate-600 hover:text-slate-900 transition-colors duration-200 link-hover">About</Link>
             <Link href="#services" className="text-slate-600 hover:text-slate-900 transition-colors duration-200 link-hover">Services</Link>
             <Link href="#expertise" className="text-slate-600 hover:text-slate-900 transition-colors duration-200 link-hover">Expertise</Link>
             <Link href="#contact" className="text-slate-600 hover:text-slate-900 transition-colors duration-200 link-hover">Contact</Link>
           </nav>
           <Link href="#contact" className="button-hover rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-700 transition-all duration-200 shadow-sm">
+=======
+            <Link href="#about" className="text-slate-600 hover:text-slate-900 transition-colors duration-200">About</Link>
+            <Link href="#services" className="text-slate-600 hover:text-slate-900 transition-colors duration-200">Services</Link>
+            <Link href="#expertise" className="text-slate-600 hover:text-slate-900 transition-colors duration-200">Expertise</Link>
+            <Link href="#contact" className="text-slate-600 hover:text-slate-900 transition-colors duration-200">Contact</Link>
+          </nav>
+          <Link href="#contact" className="rounded-md bg-blue-700 px-5 py-2.5 text-sm font-medium text-white hover:bg-blue-800 transition-colors duration-200 shadow-sm">
+>>>>>>> origin/main
             Get in Touch
           </Link>
         </div>

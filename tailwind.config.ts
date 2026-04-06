@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         blue: {
+<<<<<<< HEAD
           50: '#f5f8ff',
           100: '#e9f0ff',
           200: '#c7d7ff',
@@ -21,6 +22,18 @@ export default {
           800: '#1e2885',
           900: '#1c236b',
           950: '#11153e',
+=======
+          50: '#f5f7ff',
+          100: '#e0e7ff',
+          200: '#c7d2fe',
+          300: '#a5b4fc',
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
+          700: '#4338ca',
+          800: '#3730a3',
+          900: '#312e81',
+>>>>>>> origin/main
         },
         slate: {
           50: '#f8fafc',
@@ -33,6 +46,7 @@ export default {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
+<<<<<<< HEAD
           950: '#020617',
         }
       },
@@ -62,6 +76,25 @@ export default {
       },
       transitionTimingFunction: {
         'b2b': 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+=======
+        }
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        mono: ['JetBrains Mono', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+      },
+      spacing: {
+        '18': '4.5rem',
+        '88': '22rem',
+      },
+      letterSpacing: {
+        tighter: '-0.03em',
+        tight: '-0.02em',
+        normal: '0',
+        wide: '0.01em',
+        wider: '0.025em',
+        widest: '0.05em',
+>>>>>>> origin/main
       },
     },
   },
