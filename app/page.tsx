@@ -7,9 +7,16 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/95 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-6 max-w-7xl">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-md bg-blue-700 flex items-center justify-center shadow-sm">
-              <span className="text-white font-semibold text-base">P</span>
-            </div>
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" className="h-9 w-9 drop-shadow-sm">
+              <rect width="36" height="36" rx="6" fill="url(#logo-gradient)"/>
+              <path d="M10.5 10.5H19C21.4853 10.5 23.5 12.5147 23.5 15C23.5 17.4853 21.4853 19.5 19 19.5H13.5V25.5H10.5V10.5Z" fill="white"/>
+              <defs>
+                <linearGradient id="logo-gradient" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#1d4ed8"/>
+                  <stop offset="1" stop-color="#1e40af"/>
+                </linearGradient>
+              </defs>
+            </svg>
             <span className="font-semibold text-lg tracking-tight text-slate-800">Primus Consulting</span>
           </div>
           <nav className="hidden md:flex items-center gap-10 text-sm font-medium">
@@ -221,9 +228,16 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">P</span>
-              </div>
+              <svg width="32" height="32" viewBox="0 0 36 36" fill="none" className="h-8 w-8 drop-shadow-sm">
+                <rect width="36" height="36" rx="6" fill="url(#footer-logo-gradient)"/>
+                <path d="M10.5 10.5H19C21.4853 10.5 23.5 12.5147 23.5 15C23.5 17.4853 21.4853 19.5 19 19.5H13.5V25.5H10.5V10.5Z" fill="white"/>
+                <defs>
+                  <linearGradient id="footer-logo-gradient" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#1d4ed8"/>
+                    <stop offset="1" stop-color="#1e40af"/>
+                  </linearGradient>
+                </defs>
+              </svg>
               <span className="font-semibold">Primus Consulting</span>
             </div>
             <p className="text-sm text-slate-500">© 2026 Primus Consulting. All rights reserved.</p>
