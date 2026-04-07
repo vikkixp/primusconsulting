@@ -1,16 +1,5 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background circle -->
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <circle cx="32" cy="32" r="30" fill="#1e40af"/>
-  
-  <!-- Stylized P -->
-  <path d="M20 20h8c4 0 6 2 6 6v8c0 4-2 6-6 6h-4v4h-4V20zM24 24v8h4c1.333 0 2-.667 2-2v-4c0-1.333-.667-2-2-2h-4z" fill="white"/>
-  
-  <!-- Code brackets -->
-  <path d="M44 16h2v8h4v2h-4v8h-2v-8h-4v-2h4v-8z" fill="#3b82f6"/>
-  <path d="M12 40h2v8h4v2h-4v8h-2v-8h-4v-2h4v-8z" fill="#3b82f6"/>
-  
-  <!-- Connecting lines -->
-  <line x1="32" y1="32" x2="44" y2="20" stroke="#60a5fa" stroke-width="1"/>
-  <line x1="32" y1="32" x2="20" y2="44" stroke="#60a5fa" stroke-width="1"/>
+  <text x="32" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">P</text>
 </svg></content>
 <parameter name="filePath">public/primus-logo.svg
