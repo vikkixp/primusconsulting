@@ -7,9 +7,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-slate-100 bg-white/95 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-6 max-w-7xl">
           <div className="flex items-center gap-3">
-            <div className="h-9 w-9 rounded-md bg-blue-700 flex items-center justify-center shadow-sm">
-              <span className="text-white font-semibold text-base">P</span>
-            </div>
+            <img src="/primus-logo.svg" alt="Primus Consulting Logo" className="h-9 w-9" />
             <span className="font-semibold text-lg tracking-tight text-slate-800">Primus Consulting</span>
           </div>
           <nav className="hidden md:flex items-center gap-10 text-sm font-medium">
@@ -221,9 +219,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">P</span>
-              </div>
+              <img src="/primus-logo.svg" alt="Primus Consulting Logo" className="h-8 w-8" />
               <span className="font-semibold">Primus Consulting</span>
             </div>
             <p className="text-sm text-slate-500">© 2026 Primus Consulting. All rights reserved.</p>
