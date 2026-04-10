@@ -88,6 +88,38 @@ export default function Home() {
               <p className="text-slate-600 text-lg">End-to-end Salesforce services built on solid engineering principles.</p>
             </div>
 
+            {/* Featured new services */}
+            <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="rounded-xl border-2 border-blue-600 bg-blue-50/40 p-8 relative overflow-hidden">
+                <span className="absolute top-4 right-4 text-xs font-semibold uppercase tracking-wider text-blue-600 bg-blue-100 px-2.5 py-1 rounded-full">Now Available</span>
+                <div className="w-10 h-10 rounded-lg bg-blue-600 flex items-center justify-center mb-5">
+                  <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" /></svg>
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Agentforce Implementation</h3>
+                <p className="text-slate-600 mb-4">End-to-end Agentforce strategy, design, and implementation. We build autonomous AI agents that handle real business processes — from customer service bots to complex multi-step sales workflows — with full customization in Apex and Flow.</p>
+                <ul className="text-sm text-slate-600 space-y-1.5">
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>Agent topic & action design</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>Custom Apex actions & Flow integrations</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>Einstein AI grounding & prompt engineering</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-blue-500 shrink-0"></span>Governance, safety guardrails & testing</li>
+                </ul>
+              </div>
+              <div className="rounded-xl border-2 border-sky-500 bg-sky-50/40 p-8 relative overflow-hidden">
+                <span className="absolute top-4 right-4 text-xs font-semibold uppercase tracking-wider text-sky-600 bg-sky-100 px-2.5 py-1 rounded-full">Now Available</span>
+                <div className="w-10 h-10 rounded-lg bg-sky-500 flex items-center justify-center mb-5">
+                  <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M20.893 13.393l-1.135-1.135a2.252 2.252 0 01-.421-.585l-1.08-2.16a.414.414 0 00-.663-.107.827.827 0 01-.812.21l-1.273-.363a.89.89 0 00-.738 1.595l.587.39c.59.395.674 1.23.172 1.732l-.2.2c-.212.212-.33.498-.33.796v.41c0 .409-.11.809-.32 1.158l-1.315 2.191a2.11 2.11 0 01-1.81 1.025 1.055 1.055 0 01-1.055-1.055v-1.172c0-.92-.56-1.747-1.414-2.089l-.655-.261a2.25 2.25 0 01-1.383-2.46l.007-.042a2.25 2.25 0 01.29-.787l.09-.15a2.25 2.25 0 012.37-1.048l1.178.236a1.125 1.125 0 001.302-.795l.208-.73a1.125 1.125 0 00-.578-1.315l-.665-.332-.091.091a2.25 2.25 0 01-1.591.659h-.18c-.249 0-.487.1-.662.274a.931.931 0 01-1.458-1.137l1.411-2.353a2.25 2.25 0 00.286-.76m11.928 9.869A9 9 0 008.965 3.525m11.928 9.868A9 9 0 118.965 3.525" /></svg>
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Data Cloud 360</h3>
+                <p className="text-slate-600 mb-4">Unify all your customer data into a real-time, actionable profile. We implement Salesforce Data Cloud to connect siloed systems, resolve identities, and power AI-driven engagement across every touchpoint.</p>
+                <ul className="text-sm text-slate-600 space-y-1.5">
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0"></span>Data ingestion & stream setup</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0"></span>Identity resolution & unified profiles</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0"></span>Calculated insights & segmentation</li>
+                  <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0"></span>Activation across Sales, Service & Marketing Cloud</li>
+                </ul>
+              </div>
+            </div>
+
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
@@ -135,21 +167,21 @@ export default function Home() {
 
             <div className="grid md:grid-cols-4 gap-6 text-sm">
               {[
-                "Salesforce Certified Technical Architect",
-                "Platform Developer I & II",
-                "Apex & LWC Specialists",
-                "Service Cloud Consultant",
-                "Sales Cloud Consultant",
-                "CPQ Implementation",
-                "Experience Cloud",
-                "MuleSoft Integration",
-                "Bulk & Composite APIs",
-                "CI/CD for Salesforce",
-                "Performance Optimization",
-                "Security & Governance",
+                { label: "Agentforce", highlight: true },
+                { label: "Data Cloud 360", highlight: true },
+                { label: "Salesforce Certified Technical Architect", highlight: false },
+                { label: "Platform Developer I & II", highlight: false },
+                { label: "Apex & LWC Specialists", highlight: false },
+                { label: "Service Cloud Consultant", highlight: false },
+                { label: "Sales Cloud Consultant", highlight: false },
+                { label: "CPQ Implementation", highlight: false },
+                { label: "Experience Cloud", highlight: false },
+                { label: "MuleSoft Integration", highlight: false },
+                { label: "CI/CD for Salesforce", highlight: false },
+                { label: "Security & Governance", highlight: false },
               ].map((item, index) => (
-                <div key={index} className="border border-slate-800 rounded-lg px-4 py-3 text-slate-300">
-                  {item}
+                <div key={index} className={`rounded-lg px-4 py-3 ${item.highlight ? "border border-blue-500 bg-blue-900/30 text-blue-300 font-semibold" : "border border-slate-800 text-slate-300"}`}>
+                  {item.label}
                 </div>
               ))}
             </div>
