@@ -81,7 +81,7 @@ export default function Home() {
               </div>
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-slate-400/20 rounded-3xl blur-2xl"></div>
-                <img src="https://images.pexels.com/photos/3865523/pexels-photo-3865523.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team collaboration" className="relative rounded-2xl w-full h-80 md:h-auto object-cover shadow-xl" />
+                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800" alt="CRM Dashboard" className="relative rounded-2xl w-full h-80 md:h-auto object-cover shadow-xl" />
               </div>
             </div>
           </div>
