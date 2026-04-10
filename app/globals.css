@@ -43,5 +43,20 @@ section {
 }
 
 ::selection {
-  background-color: rgba(79, 70, 229, 0.15);
+  background-color: rgba(37, 99, 235, 0.2);
+  color: inherit;
+}
+
+/* Scroll behavior optimization */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Link focus styles for accessibility */
+a:focus-visible {
+  outline: 2px solid rgba(37, 99, 235, 0.5);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
